@@ -1,5 +1,7 @@
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -51,7 +53,7 @@ public class Steps {
 
         for (Movie m : movies) {
             if (m.getTitle().equals(movieName)) {
-                Assert.assertEquals("ffffff", m.getTitle());
+                Assert.assertEquals("Pulp Fiction", m.getTitle());
                 Assert.assertEquals(680, (int) m.getId());
             }
         }
