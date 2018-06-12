@@ -27,5 +27,7 @@
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-junit:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:gherkin:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:gherkin-jvm-deps:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
   </component>
 </module>
