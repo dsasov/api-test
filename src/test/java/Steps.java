@@ -50,7 +50,7 @@ public class Steps {
 
         for (Movie m : movies) {
             if (m.getTitle().equals(movieName)) {
-                Assert.assertEquals("Pulp Fiction", m.getTitle());
+                Assert.assertEquals(movieName, m.getTitle());
                 Assert.assertEquals(680, (int) m.getId());
             }
         }

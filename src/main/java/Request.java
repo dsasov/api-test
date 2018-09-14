@@ -1,3 +1,4 @@
+import test.Property;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import org.apache.http.client.utils.URIBuilder;
